@@ -37,8 +37,17 @@ c. KeyAdapter (adapter class). Meng-override keyTyped() pada txtNim. Jika karakt
 d. WindowAdapter (adapter class). Meng-override windowClosing() agar saat tombol X  atau menu "keluar" diklik, yang dipanggil adalah konfirmasiKeluar(), bukan penutupan langsung. Ini pasangan dari DO_NOTHING_ON_CLOSE di bagian top-level container.
 
 ## Screenshot
+Tampilan awal sistem:
 ![Tampilan awal sistem](Screenshot/tampilan-awal.png)
+
+Tampilan jika data diisi tidak lengkap:
 ![Tampilan jika data diisi tidak lengkap](Screenshot/nama-atau-nim-kosong.png)
+
+Tampilan jika data berhasil terisi:
 ![Tampilan jika data berhasil terisi](Screenshot/data-terisi.png)
+
+Tampilan saat data direset:
 ![Tampilan saat data direset](Screenshot/setelah-dihapus.png)
+
+Tampilan saat akan keluar:
 ![Tampilan saat akan keluar](Screenshot/saat-keluar.png)
