@@ -36,8 +36,8 @@ b. MouseAdapter (adapter class). Dibuat sebagai anonymous class dengan meng-over
 c. KeyAdapter (adapter class). Meng-override keyTyped() pada txtNim. Jika karakter yang diketik bukan huruf atau angka (!Character.isLetterOrDigit(...)), e.consume() membatalkan event sehingga karakter itu tidak muncul di kolom.
 d. WindowAdapter (adapter class). Meng-override windowClosing() agar saat tombol X  atau menu "keluar" diklik, yang dipanggil adalah konfirmasiKeluar(), bukan penutupan langsung. Ini pasangan dari DO_NOTHING_ON_CLOSE di bagian top-level container.
 
-![Tampilan awal sistem](Screenshot/tampilan awal.png)
-![Tampilan jika data diisi tidak lengkap](Screenshot/nama atau nim kosong.png)
-![Tampilan jika data berhasil terisi](Screenshot/data terisi.png)
-![Tampilan saat data direset](Screenshot/setelah dihapus.png)
-![Tampilan saat akan keluar](Screenshot/saat keluar.png)
+![Tampilan awal sistem](Screenshot/tampilan-awal.png)
+![Tampilan jika data diisi tidak lengkap](Screenshot/nama-atau-nim-kosong.png)
+![Tampilan jika data berhasil terisi](Screenshot/data-terisi.png)
+![Tampilan saat data direset](Screenshot/setelah-dihapus.png)
+![Tampilan saat akan keluar](Screenshot/saat-keluar.png)
